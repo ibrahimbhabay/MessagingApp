@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+#chatContainer {
+  height: 80vh !important;
+  overflow-y: auto;
+  padding-left: 2vw;
+  padding-top: 2vh;
+}
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
